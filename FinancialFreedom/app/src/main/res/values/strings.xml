@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FinancialFreedom</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delete_all">Delete All</string>
+    <string name="save">Save</string>
+    <string name="clothing">Clothing</string>
+    <string name="other">Other</string>
+    <string name="education">Education</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="tourism">Tourism</string>
+    <string name="household">Household</string>
+    <string name="transportation">Transportation</string>
+    <string name="health">Health</string>
+    <string name="food">Food</string>
+    <string name="set_max_value">Set Max Value</string>
+    <string name="diagram">Diagram</string>
+    <string name="warning_message">Fill the value field!</string>
+    <string name="item_list">Item List</string>
+    <string name="food_max">Food Max</string>
+    <string name="health_max">Health Max</string>
+    <string name="transportation_max">Transportation Max</string>
+    <string name="household_max">Household Max</string>
+    <string name="tourism_max">Tourism Max</string>
+    <string name="entertainment_max">Entertainment Max</string>
+    <string name="education_max">Education Max</string>
+    <string name="clothing_max">Clothing Max</string>
+    <string name="other_max">Other Max</string>
+    <string name="save_values">Save Values</string>
+    <string name="change_chart">Change chart</string>
+    <string name="money_warning">You have spent more money than planned on one or more categories!</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/itemFragment">
+
+    <fragment
+        android:id="@+id/itemFragment"
+        android:name="hu.bme.aut.android.financialfreedom.ItemFragment"
+        android:label="fragment_item"
+        tools:layout="@layout/fragment_item" >
+        <action
+            android:id="@+id/action_itemFragment_to_valueFragment"
+            app:destination="@id/valueFragment" />
+        <action
+            android:id="@+id/action_itemFragment_to_diagramFragment"
+            app:destination="@id/diagramFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/diagramFragment"
+        android:name="hu.bme.aut.android.financialfreedom.DiagramFragment"
+        android:label="fragment_diagram"
+        tools:layout="@layout/fragment_diagram" >
+        <action
+            android:id="@+id/action_diagramFragment_to_valueFragment"
+            app:destination="@id/valueFragment" />
+        <action
+            android:id="@+id/action_diagramFragment_to_itemFragment"
+            app:destination="@id/itemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/valueFragment"
+        android:name="hu.bme.aut.android.financialfreedom.ValueFragment"
+        android:label="fragment_value"
+        tools:layout="@layout/fragment_value" >
+        <action
+            android:id="@+id/action_valueFragment_to_diagramFragment"
+            app:destination="@id/diagramFragment" />
+        <action
+            android:id="@+id/action_valueFragment_to_itemFragment"
+            app:destination="@id/itemFragment" />
+    </fragment>
+</navigation>
